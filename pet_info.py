@@ -1,4 +1,4 @@
-    nome = input("Nome do pet: ")
+    pet_nome = input("Nome do pet: ")
 
     while True:
         try:
@@ -25,4 +25,4 @@
     print(f"Idade: {idade} anos")
     print(f"Peso: {peso} kg")
 
-coletar_informacoes_pet()
+
