@@ -25,6 +25,4 @@ def coletar_informacoes_pet():
     print(f"Idade: {idade} anos")
     print(f"Peso: {peso} kg")
 
-
-
 coletar_informacoes_pet()
