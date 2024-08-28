@@ -1,0 +1,15 @@
+# Santander Coders 2024 - Devops.
+ Algumas considerações a respeito desse prjeto:
+
+* Projeto tem como proposito demostrar o conteúdo ministrado em aulas referentes a Controle de Versionanmento com Git e GitHub.
+* Foi proposto um código bem simples desenvolvido na Linguagem de Programação Python,com o mero proposito de realizarmos algumas modificações e documentação do mesmo, fazendo uso das boas práticas de versionamneto de cigo passado ensinado em aula.
+
+
+Principais pontos que serão avaliados neste projeto:
+
+ * Pontos que serão avaliados:
+   - [X] Fork do Projeto que servirá como base.
+   - [X] Criar branchs para: Documentação e Melhorias(Features)
+   - [X] Realizar os commits seguindo os padrões vistos nas aulas.
+ 
+
