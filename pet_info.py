@@ -11,9 +11,9 @@ def coletar_informacoes_pet():
         print("O peso não pode ser negativo. Tente novamente.")
         peso = float(input("Peso do pet(em kg): "))
             
-                
+        # Print da Michelle
         print(f"\nInformações do pet:\nNome: {nome}\nIdade: {idade} anos\nPeso: {peso} kg")
-
+    # Print da Thayse
     print("\nInformações do pet:")
     print(f"Nome: {nome}")
     print(f"Idade: {idade} anos")
