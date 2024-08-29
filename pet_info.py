@@ -1,24 +1,18 @@
 def coletar_informacoes_pet():
     nome = input("Nome do pet: ")
-    while True:
-       	try:
-            idade = int(input("Idade do pet (em anos): "))
-            if idade < 0:
-                print("A idade não pode ser negativa. Tente novamente.")
-            else:
-                break
-        except ValueError:
-            print("Por favor, insira um número válido para a idade.")
 
-    while True:
-        try:
-            peso = float(input("Peso do pet (em kg): "))
-            if peso < 0:
-                print("O peso não pode ser negativo. Tente novamente.")
-            else:
-                break
-        except ValueError:
-            print("Por favor, insira um número válido para o peso.")
+   idade = int(input("Idade do pet (em anos): "))
+   while idade < 0:
+        print("A idade não pode ser negativa. Tente novamente.")
+        idade = int(input("idade do pet( em anos): "))
+                
+   peso = float(input("Peso do pet(em kg): "))
+   while peso < 0:
+        print("O peso não pode ser negativo. Tente novamente.")
+        peso = float(input("Peso do pet(em kg): "))
+            
+                
+        print(f"\nInformações do pet:\nNome: {nome}\nIdade: {idade} anos\nPeso: {peso} kg")
 
     print("\nInformações do pet:")
     print(f"Nome: {nome}")
